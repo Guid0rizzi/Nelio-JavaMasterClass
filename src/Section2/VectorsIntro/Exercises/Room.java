@@ -25,12 +25,9 @@ public class Room {
         System.out.println("------------------------------------------");
         System.out.println("busy rooms:");
         for(int i = 0; i< vect.length; i++){
-            if (vect[i]!= null){
-                System.out.println(i +": "+ vect[i]);
+            if (vect[i]!= null){ // se o quarto for diferente de null ele esta ocupado
+                System.out.println(i +": "+ vect[i]); //quartos que estão ocupados
             }
-
-
-
         }
 
     }
