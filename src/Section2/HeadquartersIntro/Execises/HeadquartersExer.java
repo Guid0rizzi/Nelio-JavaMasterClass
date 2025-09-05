@@ -14,7 +14,7 @@ public class HeadquartersExer {
         }
         System.out.println("Main diagonal");
         for (int i =0 ; i< n; i++){
-            System.out.println(headQuarter[i][i]);// diagonal ii, colunm jj
+            System.out.println(headQuarter[i][i]);// diagonal one ii, diagonal two jj
         }
         int negatives = 0;
         for (int i = 0; i< n; i++){

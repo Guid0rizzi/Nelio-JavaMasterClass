@@ -21,12 +21,11 @@ public class HeadquarterSecordExer {
                     if(j > 0){
                         System.out.println("left " +  headQuarters[i][j-1]);
                     }
-                    if(j > headQuarters[i].length){
+                    if(j > headQuarters[i].length - 1){
                         System.out.println("right " +  headQuarters[i][j+1]);
                     }
-
-                    if(j < headQuarters[i].length -1){
-                        System.out.println("Up "+ headQuarters[i-1][j]);
+                    if(i > 0){
+                        System.out.println("Up " + headQuarters[i-1][j]);
                     }
                     if(i < headQuarters.length-1) {
                         System.out.println("Down " + headQuarters[i + 1][j]);
