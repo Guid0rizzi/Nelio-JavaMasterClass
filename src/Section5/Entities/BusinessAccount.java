@@ -24,5 +24,11 @@ public class BusinessAccount extends Account {
         //    deposite(amount);
             balance += amount - 10.0; // o balance vai começar a ser protected pra o BusinesAccount ter acesso a ele
     }
+
+    }
+    @Override
+    public void withdraw (Double amount){
+        super.withdraw(amount);
+        balance -= 2.0;
     }
 }
